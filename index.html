@@ -1,9 +1,205 @@
-<html>
- 
-  <body>
-    <h1>Charbel</h1>
-    <p>Welcome to my website!</p>
-    <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-  </body>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Price listing</title>
+</head>
+<body>
+    <!--Header Section-->
+    <header class="header" >
+        <div class="navbar">
+            <div class = "logo">
+                <img src="./resources/images/logo_transparent.png" alt="logo" width="125px">
+            </div>
+            <nav>
+                <ul class="nav_list">
+                    <li><a href="#">Crop Prices</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="#faq">FAQ</a></li>                   
+                </ul>
+            </nav>
+            <div class="account_tab">
+                <ul>
+                    <li class="btn-login"><a href="./register_login.html">Login</a></li>
+                    <li class="btn-signup"><a href="./register_login.html">Signup</a></li>
+                    <li class="search-bar"><input type="text" name="" id="search"><a href="" id="btn-search" >Search</a></li>
+                    
+                    
+                </ul>
+            </div>
+        </div>  
+    </header>
+
+    <!-- main body-->
+    <div class="title_line">
+        <h1>Crop prices as of May 21, 2022</h1>
+        <p class="subscript"><em> According to BAPTC MONITORED WHOLESALE PRICE (Per Kilograms). FOR <b> FARMERS' REFERENCE</b>. Prices may change at any time</em></p>    </div>
+
+    <!-- Prices table -->
+    <div class="prices">
+        <table class="col2-right">
+            <thead>
+                <tr>
+                    <!-- <th>favoirute</th> -->
+                    <th class="colleft">Crop name</th>
+                    <th class="colright">Price</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td class="crop_name"><a href="crop.html">Cabbage Rareball <span class="type">1st class</a></span></td>
+                    <td >Php 16-18</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Cabbage Rareball <span class="type">2nd class</a></span></td>
+                    <td >Php 10-11</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">CABBAGE WONDERBALL<span class="type">1st class</a></span></td>
+                    <td>Php 15-20</td>
+                </tr>
+            <!--<tr>
+                    <td class="crop_name"><span class="type"></span></td>
+                    <td>Php </td>
+                </tr>-->
+                <tr>
+                    <td class="crop_name"><a href="">CHINESE CABBAGE/ WONGBOK</a></td>
+                    <td>Php 10-16</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">POTATO GRANOLA <span class="type">SXL-Jumbo</a></span></td>
+                    <td>Php 40-45</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">POTATO GRANOLA <span class="type">XL</span></a></td>
+                    <td>Php 33-42</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">POTATO GRANOLA <span class="type">Extra</span></a></td>
+                    <td>Php 10-23</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">POTATO GRANOLA <span class="type">Marble</span></a></td>
+                    <td>Php 7-9</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Carrots<span class="type"></span></a></td>
+                    <td>Php 13-27</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Broccoli <span class="type">Trimmed</span></a></td>
+                    <td>Php 20-70</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Broccoli <span class="type">Untrimmed</span></a></td>
+                    <td>Php 10-15</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Chayote <span class="type">1st Class</span></a></td>
+                    <td>Php 4-4.50</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Chayote <span class="type">2nd Class</span></a></td>
+                    <td>Php 1-2</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Radish Long <span class="type">Good</span></a></td>
+                    <td>Php 22-25</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Radish Long <span class="type">Good Semi</span></a></td>
+                    <td>Php 19-20</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Radish Long <span class="type">Semi</span></a></td>
+                    <td>Php 15-18</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Radish Long <span class="type">Putol</span></a></td>
+                    <td>Php 2-3</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Lettuce <span class="type">Green Ice</span></a></td>
+                    <td>Php 55-60</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Lettuce <span class="type">Romaine</span></a></td>
+                    <td>Php 60-70</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Onion Leeks <span class="type">Romaine</span></a></td>
+                    <td>Php 20-30</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Celery <span class="type">Romaine</span></a></td>
+                    <td>Php 10-20</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Bell Pepper <span class="type">Sultan</span></a></td>
+                    <td>Php 20-70</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Bell Pepper <span class="type">California</span></a></td>
+                    <td>Php 20-50</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Tomato <span class="type">Diamante</span></a></td>
+                    <td>Php 30-35</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Snap Beans <span class="type"></span></a></td>
+                    <td>Php 20-30</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Cucumber <span class="type"></span></a></td>
+                    <td>Php 5</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Parsley <span class="type"></span></a></td>
+                    <td>Php 20-25</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Zuchini <span class="type"></span></a></td>
+                    <td>Php 5-8</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Lemon <span class="type">Green</span></a></td>
+                    <td>Php 25-40</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Lemon <span class="type">Yellow</span></a></td>
+                    <td>Php 45-50</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Bokchoy Pechay <span class="type"></span></a></td>
+                    <td>Php 25-40</td>
+                </tr>
+                <tr>
+                    <td class="crop_name"><a href="">Red Cabbage <span class="type">Green</span></a></td>
+                    <td>Php 50-70</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- FAQ -->
+    <div class="faq" id="faq">
+        <h2 class="faq_title">FAQ</h2>
+        <h3>What is Vegee Price listing</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione maiores voluptatibus, ea dolorum eaque harum veniam earum neque recusandae impedit quam soluta qui molestias perspiciatis rem nostrum, dicta libero</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus adipisci tenetur culpa accusamus? Nisi natus id similique! Assumenda nostrum ab nam consequuntur! Nihil omnis corporis natus, qui veritatis deserunt doloribus.</p>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+
+    </div>
+</body>
 </html>
